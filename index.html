@@ -1,0 +1,43 @@
+---
+
+title: Martin Häusler
+
+---
+<!doctype html>
+<html style="height:100%;">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.typekit.net/ulp4asb.css">
+  <link rel="stylesheet" href="/css/fontawesome.min.css">
+  <link href="/css/site.css" rel="stylesheet">
+</head>
+<body class="text-dark frontpage">
+
+    <div class="min-h-screen relative mr-10 ml-10 md:w-2/3 lg:w-1/2 md:mx-auto pb-10">
+        <h1 class="pt-10 mb-5 text-4xl font-bold text-highlight">{{ site.title }}</h1>
+        <p class="text-lg">Hallo!<br><br>
+            Mein Name ist <strong>Martin Häusler</strong>. Ich helfe Unternehmen dabei ihre Onlineprojekte verfügbar zu halten.<br>
+            In meiner Freizeit bin ich gerne mit meiner <strong>Kamera</strong> unterwegs und halte am liebsten <strong>Momente</strong>, <strong>Menschen</strong> und <strong>Tiere</strong> auf meinen <a href="/fotografie" class="text-highlight hover:text-secondary">Fotos</a> fest.
+        </p>
+
+        <div class="mt-5 text-lg grid grid-cols-1 md:grid-cols-2">
+            <p class="">
+                <span class="text-xs uppercase text-dark">instagram</span><br>
+                <a href="https://instagram.com/{{ site.instagram_username }}" target="_blank" class="pr-5 text-highlight hover:text-secondary"><i class="fa-brands fa-instagram"></i> {{ site.instagram_username  }}</a>
+            </p>
+            <p class="">
+                <span class="text-xs uppercase text-dark">E-Mail</span><br>
+                <a href="mailto:{{ site.email }}" class="pr-5 text-highlight hover:text-secondary"><i class="fa-solid fa-envelope"></i> {{ site.email }}</a>
+        </p>
+        </div>
+
+
+
+        <div class="absolute pt-5 pb-3 bottom-0 right-0 text-sm text-right w-full">
+            <a href="/impressum.html" class="hover:text-highlight">Impressum</a>
+        </div>
+    </div>
+
+</body>
+</html>

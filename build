@@ -1,0 +1,8 @@
+#!/bin/bash
+
+
+
+NPX=`which npx`
+
+
+$NPX tailwindcss -i assets/site.css -o css/site.css $1
